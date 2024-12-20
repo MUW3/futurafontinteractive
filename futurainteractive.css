@@ -1,0 +1,1066 @@
+body { 
+  background-color:black;
+  width: 100%;
+  margin: 0;
+}
+
+#F { 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 1000px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 0px;
+  padding-left: 200px;
+  transform: rotate(45deg);
+ }
+
+
+#F2{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 1000px;
+  font-style: bold;
+  color: red; 
+  position:absolute;
+  margin-top: 0px;
+  padding-left: 150px;
+  transform: rotate(45deg);
+ }
+#U { 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 1000;
+  font-style: bold;
+  color: red; 
+  position: absolute;
+  margin-top: 10px;
+  padding-left: 1000px;
+  transform: rotate(90deg);
+ }
+
+ #T { 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  3000px;
+  font-style: bold;
+  color: red; 
+  position: absolute;
+  margin-top: -400px; 
+  padding-left: 1800px;
+  
+  transform: rotate(90deg);
+ }
+
+#T2 { 
+  font-size: 600px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  2000px;
+  font-style: bold;
+  color: black; 
+  position: absolute;
+  margin-top: -370px; 
+  padding-left: 1860px;
+  
+  transform: rotate(90deg);
+ }
+
+ #T3 { 
+  font-size: 500px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  1000px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: -310px; 
+  padding-left: 1900px;
+  
+  transform: rotate(90deg);
+ }
+
+  #U2 { 
+  font-size: 1000px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  9000px;
+  font-style: bold;
+  color: red; 
+  position: absolute;
+  margin-top:700px ;
+  padding-left: 200px;
+  
+  transform: rotate(90deg);
+ }
+
+ #R { 
+  font-size: 1000px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  9000px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top:50px ;
+  padding-left: 1600px;
+  
+  transform: rotate(90deg);
+
+ }
+
+#A { 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  3000px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 1450px;
+  margin-left:750px ;
+  transform: rotate(360deg);
+ }
+
+#A2 { 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  3000px;
+  font-style: bold;
+  color: black; 
+  position: absolute;
+  margin-top: 1450px;
+  margin-left:730px ;
+  transform: rotate(360deg);
+ }
+
+#A3 { 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  3000px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 1450px;
+  margin-left:710px ;
+  transform: rotate(360deg);
+ }
+
+
+#C{ 
+  font-size: 500px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  50000px;
+  font-style: bold;
+  color: red; 
+  position: absolute;
+  margin-top: 2380px;
+  margin-left:500px ;
+  transform-origin: center;
+  animation: rotateInPlace 5s infinite linear;
+ }
+
+ }
+ @keyframes rotateInPlace {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+ #D{ 
+  font-size: 500px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  50000px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 2390px;
+  margin-left:560px ;
+  transform: rotate(360deg);
+ }
+
+ #A4{ 
+  font-size: 200px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  700px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 2200px;
+  margin-left:150px ;
+  transform: rotate(45deg);
+  transform-origin: center;
+  animation: rotateInPlace 5s infinite linear;
+ }
+
+ }
+ @keyframes rotateInPlace {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+#B{ 
+  font-size: 200px;
+  font-family: "futura-pt", sans-serif;
+  font-weight:  200px;
+  font-style:  Bold Oblique;
+  color: red;  
+  position: absolute;
+  margin-top: 2300px;
+  margin-left:150px ;
+  transform: rotate(360deg);
+
+ }
+ 
+ #E{ 
+  font-size: 500px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: red; 
+  position: absolute;
+  margin-top: 2500px;
+  margin-left:200px ;
+  transform: rotate(360deg);
+  text-align: center;
+  animation: flash 1s infinite; 
+ }
+ @keyframes flash {
+  0%, 100% {
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    opacity: 0; /* Invisible */
+  }
+}
+
+
+ #E2{ 
+  font-size: 500px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 2480px;
+  margin-left:230px ;
+  transform: rotate(360deg);
+ }
+
+ #expo{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 2000px;
+  margin-left:900px ;
+  transform: rotate(360deg);
+ }
+
+ #expo2{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: black; 
+  position: absolute;
+  margin-top: 2000px;
+  margin-left:890px ;
+  transform: rotate(360deg);
+ }
+
+#expo3{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 2000px;
+  margin-left:870px ;
+  transform: rotate(360deg);
+ }
+
+ #f{ 
+  font-size: 400px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: black; 
+  position: absolute;
+  margin-top: 2800px;
+  margin-left:750px ;
+  transform: rotate(30deg);
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: white
+  }
+  
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white, 0 0 80px white;
+  }
+}
+
+#five{ 
+  font-size: 400px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: red; 
+  position: absolute;
+  margin-top: 3000px;
+  margin-left:995px ;
+  transform: rotate(45deg);
+} 
+
+#five2{ 
+  font-size: 400px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: black; 
+  position: absolute;
+  margin-top: 2990px;
+  margin-left:1000px ;
+  transform: rotate(45deg);
+} 
+ 
+
+ #five3{ 
+  font-size: 400px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: red; 
+  position: absolute;
+  margin-top: 2980px;
+  margin-left:1000px ;
+  transform: rotate(45deg);
+} 
+
+#five4{ 
+  font-size: 400px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: black; 
+  position: absolute;
+  margin-top: 2970px;
+  margin-left:995px ;
+  transform: rotate(45deg);
+} 
+#G{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 2900px;
+  margin-left:100px ;
+  transform-origin:center;
+  animation: rotateInPlace 5s infinite linear;
+ }
+ @keyframes rotateInPlace {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+  #H{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 3410px;
+  margin-left:175px ;
+  transform: rotate(360deg);
+  animation: grow 5s infinite; 
+} 
+
+@keyframes grow { 
+  50% {font-size: 50px;}
+}
+
+
+#H6{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 3750px;
+  margin-left:175px ;
+  transform: rotate(360deg);
+  animation: grow 5s infinite; 
+} 
+
+@keyframes grow { 
+  50% {font-size: 50px;}
+}
+
+  #Eight3{ 
+  font-size: 150px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 3600px;
+  margin-left:230px ;
+  transform: rotate(360deg);
+  animation: flash 1s infinite; 
+ }
+ @keyframes flash {
+  0%, 100% {
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    opacity: 0; /* Invisible */
+  }
+}
+
+#AndSysmbol {
+  font-size: 0px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: red; 
+  position: absolute;
+  margin-top: 3200px;
+  margin-left:900px ;
+  transform: rotate(180deg);
+}
+
+ #H3{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 3350px;
+  margin-left:425px ;
+  transform: rotate(360deg);
+ }
+
+  #H4{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: red; 
+  position: absolute;
+  margin-top: 3550px;
+  margin-left:550px ;
+  transform: rotate(360deg);
+ }
+
+
+  #H5{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 3750px;
+  margin-left:425px ;
+
+
+
+  #H6{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 3750px;
+  margin-left:175px ;
+  transform: rotate(360deg);
+  animation: grow 5s infinite;
+} 
+
+@keyframes grow { 
+  50% {font-size: 50px;}
+}
+ } 
+
+
+#H7{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  position: absolute;
+  margin-top:  3550px;
+  margin-left:50px ;
+  transform: rotate(360deg);
+ } 
+
+ #H9{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  position: absolute;
+  margin-top: 3550px;
+  margin-left:800px ;
+  transform: rotate(360deg);
+ } 
+
+ #H10{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white; 
+  position: absolute;
+  margin-top: 3350px;
+  margin-left:675px ;
+  transform: rotate(360deg);
+  animation: grow 5s infinite; 
+} 
+} 
+
+@keyframes grow { 
+  50% {font-size: 50px;}
+}
+  
+#H11{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 3710px;
+  margin-left:675px ;
+  transform: rotate(360deg);
+  animation: grow 5s infinite; 
+  background-color: ;
+} 
+
+@keyframes grow { 
+  50% {font-size: 50px;}
+}
+
+#H12{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  position: absolute;
+  margin-top: 3550px;
+  margin-left:300px ;
+  transform: rotate(360deg);
+} 
+
+
+
+ #Eight{ 
+  font-size: 150px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 3600px;
+  margin-left:730px ;
+  transform: rotate(360deg);
+  animation: flash 1s infinite; 
+ }
+ @keyframes flash {
+  0%, 100% {
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    opacity: 0; /* Invisible */
+  }
+}
+ } 
+
+ #I{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 3900px;
+  margin-left:240px ;
+  transform: rotate(360deg);
+ } 
+
+ #I2{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 3900px;
+  margin-left:490px ;
+  transform: rotate(360deg);
+ } 
+
+#I3{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 3900px;
+  margin-left:740px ;
+  transform: rotate(360deg);
+ } 
+
+ #period{ 
+  font-size: 400px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  position: absolute;
+  margin-top: 3890px;
+  margin-left:600px ;
+  transform: rotate(360deg);
+ } 
+
+ #three{ 
+  font-size: 400px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 4070px;
+  margin-left:540px ;
+  transform: rotate(360deg);
+ } 
+
+
+
+ #comma{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 4000px;
+  margin-left:570px ;
+  transform: rotate(45deg);
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: white
+  }
+  
+  to {
+    text-shadow: 0 0 20px red, 0 0 30px black, 0 0 40px red, 0 0 50px black, 0 0 60px red, 0 0 70px black, 0 0 80px red;
+  }
+}
+ 
+ } 
+
+
+ #J{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  position: absolute;
+  margin-top: 3900px;
+  margin-left:740px ;
+  transform: rotate(360deg);
+ } 
+
+
+
+ #question{ 
+  font-size: 600px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  transform: rotate(360deg);
+  margin-top: 3700px; 
+  margin-left: 980px; 
+  background: linear-gradient(90deg, red, black); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  margin-top: 3700px;
+  margin-left: 1000px; 
+  animation: spin 5s linear infinite; 
+  }
+  @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+ #K{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 4250px;
+  margin-left:860px ;
+  transform: rotate(360deg);
+ } 
+
+ #K2{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: black;
+  position: absolute;
+  margin-top: 4250px;
+  margin-left:870px ;
+  transform: rotate(360deg);
+
+ } 
+
+#K3{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 4250px;
+  margin-left:880px ;
+  transform: rotate(360deg);
+ } 
+
+ #S{ 
+  font-size: 500px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: -800px;
+  margin-left:650px;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+   background: linear-gradient(90deg, red, black); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#R2{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  margin-top: -250px;
+  margin-left:350px ;
+  transform: rotate(-270deg);
+}
+
+ #O{ 
+  font-size: 500px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  position: absolute;
+  margin-top: 0px;
+  margin-left:0px ;
+  transform: rotate(360deg);
+  animation-name: my-animation;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  margin-top:4500px;
+  margin-right:50px ; 
+}
+@keyframes my-animation {
+  from {
+    width: 300px;
+    top: 10px;
+  }
+  to {
+    background-color: black;
+    width: 50px;
+    top: 100px;
+  }
+ } 
+
+ #L{ 
+  font-size: 500px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 4500px;
+  margin-left:750px ;
+  transform: rotate(180deg);
+ } 
+
+ #M{ 
+  font-size: 200px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 4472px;
+  margin-left:1105px ;
+  transform: rotate(180deg);
+ } 
+
+ #M2{ 
+  font-size: 200px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  position: absolute;
+  margin-top: 4500px;
+  margin-left:1200px ;
+  transform: rotate(360deg);
+ } 
+
+ #M3{ 
+  font-size: 200px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  position: absolute;
+  margin-top: 4340px;
+  margin-left:1010px ;
+  transform: rotate(360deg);
+ } 
+
+
+ #Two{ 
+  font-size: 200px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  position: absolute;
+  margin-top: 4890px;
+  margin-left:1100px ;
+  transform: rotate(180deg);
+ } 
+
+  #N{ 
+  font-size: 400px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  margin-top: 4590px;
+  margin-left:660px ;
+  transform: scale(1.0);
+  width: 200px;
+  height: 200px;
+  position: relative; 
+  animation: bounceScale 2s ease-in-out infinite; 
+}
+
+@keyframes bounceScale {
+  0%, 100% {
+    transform: translateY(0) scale(1); 
+  }
+  50% {
+    transform: translateY(-100px) scale(1.2); 
+  }
+  70% {
+    transform: translateY(0) scale(0.9); 
+    color: red;
+  }
+}
+
+#P{ 
+  font-size: 400px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  margin-top: 0px;
+  margin-left:400px ;
+}
+
+ #Q{ 
+  font-size: 150px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  margin-top: -250px;
+  margin-left:480px ;
+  opacity: 1;
+  animation: fade 2s linear infinite;
+}
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+#T4{ 
+  font-size: 500px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  margin-top: -1200px;
+  margin-left:180px ;
+  transform: rotate(-45deg);
+}
+
+#u{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  margin-top: -100px;
+  margin-left:580px ;
+  transform: rotate(360deg);
+  animation:rotate 5s infinite;
+}
+
+@keyframes rotate {
+  0% {transform: rotate(360deg);} 
+  50% {transform: rotate(180deg);}
+}
+
+
+#W{ 
+  font-size: 500px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  margin-top: -500px;
+  margin-left:80px ;
+  transform: rotate(360deg);
+}
+
+
+
+#X{ 
+  font-size: 300px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  margin-top: -300px;
+  margin-left:350px ;
+  transform: rotate(360deg);
+}
+
+#Y{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: white;
+  margin-top: -520px;
+  margin-left:250px ;
+  transform: rotate(360deg);
+
+}
+
+
+#theletterV{ 
+   font-size: 200px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  margin-top: -500px;
+  margin-right: 980px;
+  transform: rotate(180deg);
+ }
+
+
+#Z{ 
+  font-size: 700px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500px;
+  font-style: bold;
+  color: red;
+  margin-top: -550px;
+  margin-left:650px ;
+  transform: rotate(360deg);
+  animation: shrink 2s ease-in-out forwards infinite; 
+}
+
+ @keyframes shrink {
+  0% {
+      font-size: 700px;
+      transform: rotate(360deg);
+}
+   100% {
+      font-size: 100px; 
+      transform: rotate(0deg); 
+      }
+}
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 

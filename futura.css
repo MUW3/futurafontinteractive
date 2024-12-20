@@ -1,0 +1,279 @@
+body { 
+	background-color:black;
+	width: 100%;
+	margin: 0;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 18;
+  font-style: italic;
+  
+ 
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  width: 10px;
+ 
+}
+
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  z-index: 10;
+  font-size: 18px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 18;
+  font-style: italic;
+ 
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 20px;
+  overflow: auto;
+  z-index: 1;
+  background-color: red;
+  font-size: 12px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 18;
+  font-style: italic;
+ }
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: red;
+}
+
+.dropdown a:hover {background-color: red;}
+
+.show {display: block;}
+
+#rectangle_red { 
+    width: 7.5%;
+    height: 100vh;
+    background-color: red;
+    position: fixed; 
+    left: 0%;
+    top: 0%;
+}
+
+#rectangle_white { 
+    width: 7.5%;
+    height: 100vh;
+    background-color: red;
+    position: fixed; /* allows the rectangle to overlap another object*/
+    right: 0%;
+    top: 0%;
+}
+
+  #rectangle2{ 
+    width:30px;
+    height:1500px;
+    background-color:white;
+    position: relative;
+    top: -420px; 
+    left: 700px;
+    transform: rotate(-80deg);
+}
+
+
+#Container{
+	width: 75%;
+	display: grid;
+	gap: 1.7rem;
+	grid-template-columns: repeat(3, 1fr);
+	position: abolute;
+	margin: 0 auto;
+	grid-gap: 10px;
+}
+
+
+
+#futura_1{
+  font-size: 100px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 120px;
+  font-style: bold;
+  color: red;
+}
+
+#Futuraheader {
+	position: fixed;
+	color: black;
+	right: 0;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%) rotate(90deg);
+	font-size: 100px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 120px;
+	font-style: bold;
+	margin-top: 20px;
+	margin-right: -85px;
+  animation: color-change 2s infinite;
+}
+
+@keyframes color-change { 
+  0% {color: black;}
+  50% {color: red;}
+  100% {color: black;}
+ }
+
+  a {
+	font-size: 40px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 20;
+	font-style: italic;
+	color: red; 
+  text-decoration: none;
+}
+
+
+#paragraph {
+  font-size: 18px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 18;
+  font-style: italic;
+  color: red; 
+  padding: 20px;
+  padding-right: 60px ;
+  grid-column: 1;
+  grid-row: 1;
+
+}
+
+#paragraph2  {
+	font-size: 18px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 18;
+	font-style: italic;
+	color: red;	
+	grid-column: 1;
+	grid-row: 2;
+  padding: 20px;
+  margin-top: -390px;
+}
+
+#paul {
+  width: 200px;  
+  height: auto;
+  grid-column: 1;
+  grid-row: 3;
+  margin-top: -470px;
+  padding: 20px;
+ 
+}
+#paulcaption {
+  font-size: 10px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 10;
+  font-style: italic;
+  color: red; 
+  grid-column: 1;
+  grid-row: 3;
+  margin-top: -205px;
+  padding: 20px;
+}
+
+
+#paragraph3{
+	font-size: 18px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 18;
+	font-style: italic;
+	color: red;	
+	grid-column: 3;
+	grid-row: 1;
+	padding: 20px;
+
+}
+
+#Bauhaus { 
+  width: 300px;  
+  height: auto;
+  grid-column: 3;
+  grid-row: 2;
+  margin-top: -20px;
+  padding: 20px;
+ }
+
+#Bauhauscaption{
+  font-size: 10px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 10px;
+  font-style: italic;
+  color: red; 
+  grid-column: 3;
+  grid-row: 2;
+  margin-top: 170px;
+  padding: 20px;
+
+}
+
+#futura{
+  width: 200px;  
+  height: auto;  
+}
+
+#paragraph4{
+	font-size: 18px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 18;
+	font-style: italic;
+	color: red;	 
+	grid-column: 1;
+	grid-row: 4;
+	padding: 20px;
+  margin-top: -100px;
+ 
+}
+
+#Alphabet{
+  font-size: 40px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 40px;
+  font-style: italic;
+  color: white;
+  grid-column: 1;
+  grid-row: 5;
+  padding: 20px;
+
+ 
+}
+#paragraph5{
+  font-size: 18px;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 18;
+  font-style: italic;
+  color: red;
+  grid-column: 3;
+  grid-row: 2;
+  margin-top: 300px;
+  padding: 20px;
+  
+}
+
+a { 
+  transition: transform 0.3s ease; 
+ }
+
+ a:hover { 
+  color: white;
+  }
+
+
+
+
